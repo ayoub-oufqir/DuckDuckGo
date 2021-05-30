@@ -1,0 +1,46 @@
+body{
+    background-color: #e6fff2;
+    text-align: center;
+}
+img{
+    height: 130px;
+    width: 130px;
+}
+.topnav a{
+    float: right;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 17px;
+    color: rgb(154, 189, 218);
+}
+
+a:hover {
+    color: rgb(50, 114, 48);
+}
+
+.search{
+    width: 50%;
+    height: 40px;
+    border: 2px solid rgb(179, 179, 179);
+    border-radius: 4px;
+    background-image: url('searchicon.png');
+    background-position: 10px 10px;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
+.content{
+    padding: 130px;    
+}
+h1{
+    margin-top: 7px;
+    margin-bottom: 40px;
+    font-family: 'Open Sans', sans-serif;
+    color: darkslategray;
+}
+p{
+    margin-top: 40px;
+    font-size: 20px;
+}
